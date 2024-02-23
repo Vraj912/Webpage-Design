@@ -1,0 +1,323 @@
+/********w*************
+    
+    Project 1 Stylesheet
+    Name: Vraj Patel
+    Date: 2/22/2024
+    Description: Design and Develop Project 1.
+
+**********************/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+	background-color: #e6e6e6;
+}
+
+.hero-section{
+	width: 810px;
+	height: 97vh;
+	background-color: #fff;
+	border-radius: 8px;
+	margin: 10px auto;
+	padding: 10px;
+	box-shadow: 1px 1px 2px #a2a2a2, -1px -1px 2px #a2a2a2;
+}
+
+/* Navigation Bar Starts here. */
+
+#navbar{
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo{
+	cursor: pointer;
+}
+
+.menu-items ul .bdr{
+	margin-top: 30px;
+	display: inline-block;
+	color: rgb(67, 122, 195);
+	font-size: 12px;
+	font-weight: 100;
+	padding-right: 5px;
+	border-right: 1px solid rgb(67, 122, 195);
+}
+
+.menu-items ul li{
+	cursor: pointer;
+}
+
+.no-bdr{
+	margin-top: 30px;
+	display: inline-block;
+	color: rgb(67, 122, 195);
+	font-size: 12px;
+	font-weight: 100;
+	padding-right: 5px;
+	border-right: none;
+}
+
+.search-bar {
+	margin-top: 20px;
+}
+
+.search-bar input{
+	height: 20px;
+	width: 100px;
+	border: 1px solid #a2a2a2;
+	border-radius: 3px;
+}
+
+.search-bar span{
+	cursor: pointer;
+	padding: 3px;
+	height: 25;
+	width: 100px;
+	font-size: 11px;
+	color: rgb(35, 35, 35);
+	border: 1px solid #a2a2a2;
+	background-color: #e6e6e6;
+	border-radius: 3px;
+}
+
+
+/* Main section starts here. */
+
+.img img{
+	height: 160px;
+	width: 100%;
+}
+.top-text{
+	position: absolute;
+	top: 10%;
+	left: 27%;
+	color: white;
+	text-transform: uppercase;
+	font-size: 35px;
+	font-weight: lighter;
+	letter-spacing: 5px;
+}
+
+.btm-text{
+	position: absolute;
+	top: 25%;
+	left: 61.6%;
+	color: white;
+	font-style: italic;
+	font-size: 11px;
+	font-weight: lighter;
+}
+
+#scnd-menu{
+	background-image: linear-gradient(rgb(187, 200, 233), rgb(67, 122, 195));
+	justify-content: space-between;
+}
+
+#scnd-menu ul li{
+	cursor: pointer;
+	display: inline-flex;
+	padding: 0 10px;
+}
+
+#scnd-menu ul{
+	margin: 0 100px;
+}
+
+.border{
+	color: white;
+	border-right: 1px solid white;
+	font-size: 14px;
+	font-weight: 100;
+}
+
+.no-border{
+	color: white;
+	border-right: none;
+	font-size: 14px;
+	font-weight: 100;
+}
+
+.side-bar ul{
+	height: 330px;
+	width: 195px;
+	border: 2px solid #fff;
+	margin-bottom: 30px;
+}
+
+.side-bar #nothing{
+	list-style: none;
+	padding: 5px;
+	font-size: 12px;
+	font-weight: 600;
+	border: 1px solid #fff;
+	height: 26px;
+}
+
+.side-bar ul li{
+	cursor: pointer;
+	padding: 5px;
+	list-style: inside;
+	border: 1px solid #fff;
+	font-size: 11px;
+	font-weight: 600;
+	text-transform: uppercase;
+	background-image: linear-gradient(white, #c8c8c8);
+	height: 27.5px;
+	width: 195px;
+}
+
+.nasa{
+	margin-top: 5px;
+	display: flex;
+}
+.nasa p{
+	width: 155px;
+	font-size: 11px;
+	font-weight: 500;
+}
+
+.nasa img{
+	display: flex;
+	height: 35px;
+}
+
+
+#main-section{
+	display: flex;
+}
+
+#about {
+	padding-left: 10px;
+}
+
+.fst{
+	font-size: 11px;
+	color: rgb(67, 122, 195);
+}
+
+.scnd{
+	font-size: 10px;
+}
+.trd{
+	font-size: 11px;
+}
+
+.info{
+	padding-top: 20px;
+	padding-left: 10px;
+}
+
+.part1{
+	font-size: 12px;
+	height: 140px;
+	width: 100%;
+}
+
+.heading{
+	padding-bottom: 5px;
+}
+
+.title{
+	border-top: 1px solid #a2a2a2;
+	padding: 10px 0;
+	font-size: 13px;
+	font-weight: 600;
+}
+
+.para1 span{
+	color: rgb(67, 122, 195);
+	cursor: pointer;
+	font-weight: 600;
+}
+
+.part2{
+	display: flex;
+	font-size: 12px;
+}
+
+.para2{
+	/* background-color: red; */
+	height: 80px;
+	width: 55%;
+	display: inline-block;
+}
+
+.para2 span{
+	color: rgb(67, 122, 195);
+	cursor: pointer;
+	font-weight: 600;
+}
+
+.part2 .rover{
+	border: 1px solid #a2a2a2;
+	height: 230px;
+	width: 225px;
+	padding: 5px;
+}
+
+.part2 .rover img{
+	display: flex;
+	height: 170px;
+	width: 212px;
+}
+
+.rover p{
+	font-size: 10px;
+}
+
+.tags{
+	display: inline-block;
+	color: rgb(67, 122, 195);
+	font-size: 13px;
+	font-weight: 600;
+	position: absolute;
+	top: 62%;
+	left: 41%;
+}
+
+.tags p{
+	cursor: pointer;
+	margin: 20px 0;
+}
+
+
+/* Footer Section starts here. */
+
+.ftr-menu{
+	margin-top: 10px;
+	align-items: center;
+	justify-content: center;
+	list-style-type: none;
+	display: flex;
+	color: rgb(67, 122, 195);
+	font-size: 11px;
+}
+
+.ftr-menu li {
+	padding: 2px;
+	cursor: pointer;
+}
+
+
+.footer p{
+	font-size: 11px;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+
+.footer p span{
+	color: rgb(67, 122, 195);
+	cursor: pointer;
+}
+
+.footer :nth-child(2){
+	color: #a2a2a2;
+}
